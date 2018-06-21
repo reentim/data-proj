@@ -40,6 +40,7 @@ GEM
     minitest (5.11.3)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    pg (1.0.0)
     rack (2.0.5)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
@@ -68,10 +69,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pg (~> 1.0.0)
   standalone_migrations (~> 5.2.5)
 
 RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
